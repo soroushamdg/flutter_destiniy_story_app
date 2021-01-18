@@ -15,5 +15,9 @@ class StoryPage {
   List<PageOption> pageOptions;
 
   StoryPage(
-      {this.id, this.text, this.pageOptions, this.inits_storyboard = false});
+      {this.id,
+      this.title,
+      this.text,
+      this.pageOptions,
+      this.inits_storyboard = false});
 }
